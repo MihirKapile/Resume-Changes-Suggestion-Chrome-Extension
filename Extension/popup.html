@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Resume Optimizer</title>
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+    }
+    #suggestions {
+      margin-top: 10px;
+    }
+  </style>
+  <script src="js/content.js"></script>
+</head>
+<body>
+  <h1>Resume Optimizer</h1>
+  <button id="analyze">Analyze Job Description</button>
+  <div id="suggestions">
+    <p id="suggestions"></p>
+  </div>
+  <h2>Upload Your Resume</h2>
+  <input type="file" id="fileInput" accept=".pdf">
+  <button id="submitBtn">Submit</button>
+  <p id="statusMessage"></p>
+  <script src="popup.js"></script>
+</body>
+</html>
